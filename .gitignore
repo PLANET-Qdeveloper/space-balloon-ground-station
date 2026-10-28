@@ -41,3 +41,10 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# omc config files
+/.omc
+
+# KiCad MCP config files
+/.claude
+/.codex
