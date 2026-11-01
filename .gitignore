@@ -48,3 +48,7 @@ fp-info-cache
 # KiCad MCP config files
 /.claude
 /.codex
+
+# AGENT config files
+/.agent
+AGENTS.md
