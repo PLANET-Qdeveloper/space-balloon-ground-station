@@ -8979,6 +8979,12 @@
 		(uuid "6ea024cb-461a-47e1-abfe-ae3849bb8b7f")
 	)
 	(junction
+		(at 487.68 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fca5d14-f66c-4cb6-8d7e-788f670f02ff")
+	)
+	(junction
 		(at 144.78 302.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9271,6 +9277,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f36ace94-1146-4427-bd07-4c940c22fd2a")
+	)
+	(junction
+		(at 487.68 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb045e11-8acd-4427-b0fc-ffea65f00127")
 	)
 	(junction
 		(at 82.55 180.34)
@@ -10067,6 +10079,16 @@
 			(type default)
 		)
 		(uuid "37346f3b-4c5f-4190-8c04-890db9beb007")
+	)
+	(wire
+		(pts
+			(xy 487.68 106.68) (xy 492.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37389426-5ab9-4b90-896f-692ed01deec5")
 	)
 	(wire
 		(pts
@@ -12147,6 +12169,16 @@
 			(type default)
 		)
 		(uuid "d22cb26d-0e29-4027-8a48-6277be57882b")
+	)
+	(wire
+		(pts
+			(xy 487.68 60.96) (xy 487.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2db5879-1a01-41dd-9247-2cdcd638d3a2")
 	)
 	(wire
 		(pts
@@ -14622,6 +14654,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 495.3 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d13c9ed-9720-42db-95f7-b9870264db50")
+		(property "Reference" "C45"
+			(at 497.84 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 501.65 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 495.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 495.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 495.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70455817-db49-4dbd-8f49-29a2151dbf10")
+		)
+		(pin "2"
+			(uuid "cd1f1a46-1a23-4034-ae08-a64d65025ff5")
+		)
+		(instances
+			(project "GroundStation_3"
+				(path "/8f05bac8-1453-4480-8dba-54ed83c22ff0"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 347.98 121.92 0)
 		(unit 1)
@@ -16254,6 +16367,83 @@
 			(project "GroundStation_3"
 				(path "/8f05bac8-1453-4480-8dba-54ed83c22ff0"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 497.84 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b4ee92e-2704-4f30-b9bd-13f0f08a7cda")
+		(property "Reference" "#PWR0144"
+			(at 504.19 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 502.92 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 497.84 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 497.84 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 497.84 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01029b96-f2ac-4f92-8015-eb4f05d52580")
+		)
+		(instances
+			(project "GroundStation_3"
+				(path "/8f05bac8-1453-4480-8dba-54ed83c22ff0"
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -18422,7 +18612,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 487.68 63.5 0)
+		(at 487.68 60.96 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18433,7 +18623,7 @@
 		(dnp no)
 		(uuid "325ae84c-271b-4cb4-9aee-4dedb6e2b735")
 		(property "Reference" "#PWR078"
-			(at 487.68 67.31 0)
+			(at 487.68 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18444,7 +18634,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 491.49 60.96 0)
+			(at 491.49 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18454,7 +18644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 487.68 63.5 0)
+			(at 487.68 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18465,7 +18655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 487.68 63.5 0)
+			(at 487.68 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18476,7 +18666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 487.68 63.5 0)
+			(at 487.68 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23043,7 +23233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 516.89 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23394,7 +23584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 516.89 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24166,6 +24356,83 @@
 			(project "GroundStation_3"
 				(path "/8f05bac8-1453-4480-8dba-54ed83c22ff0"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 492.76 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b218801-1649-42e3-93fb-f6df9527a525")
+		(property "Reference" "#PWR0137"
+			(at 499.11 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 497.84 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 492.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 492.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 492.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dce3373d-b9ef-40c9-b52c-b4448941a4e7")
+		)
+		(instances
+			(project "GroundStation_3"
+				(path "/8f05bac8-1453-4480-8dba-54ed83c22ff0"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -25102,7 +25369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 516.89 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33379,6 +33646,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 490.22 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6962b2e-5e35-4856-8012-79ba785326db")
+		(property "Reference" "C44"
+			(at 492.76 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 496.57 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 490.22 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 490.22 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 490.22 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "452eb69b-8a50-48d1-b93a-e15b43f72396")
+		)
+		(pin "2"
+			(uuid "fb2fd557-2311-4f8a-9e4b-3318f8b0cdeb")
+		)
+		(instances
+			(project "GroundStation_3"
+				(path "/8f05bac8-1453-4480-8dba-54ed83c22ff0"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 543.56 88.9 0)
 		(mirror y)
@@ -33866,7 +34214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 516.89 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34882,7 +35230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 516.89 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36929,7 +37277,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 516.89 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
