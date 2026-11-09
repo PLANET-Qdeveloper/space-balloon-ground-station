@@ -22729,7 +22729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "BLM18AG601SN1D"
 			(at 273.05 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34295,8 +34295,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FerriteBead"
-			(at 344.17 63.5 90)
+		(property "Value" "BLM18AG601SN1D"
+			(at 350.52 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35071,7 +35071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "BLM18AG601SN1D"
 			(at 312.42 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
